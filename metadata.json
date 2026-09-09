@@ -1,0 +1,6 @@
+{
+  "name": "Trisha Fashion World",
+  "description": "Modern and elegant Indian fashion & cosmetics e-commerce store in Raj Berhampur, Odisha. Curated men's, ladies', kids' wear, and beauty collections by CEO Prangyashree Acharya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

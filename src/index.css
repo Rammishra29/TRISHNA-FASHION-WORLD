@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Cinzel", "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-burgundy-900: #300516;
+  --color-burgundy-800: #480922;
+  --color-burgundy-700: #5F0E2F;
+  --color-burgundy-600: #79163E;
+  --color-burgundy-500: #961E4F;
+  --color-burgundy-400: #B73268;
+
+  --color-gold-700: #886725;
+  --color-gold-600: #A88237;
+  --color-gold-500: #C5A059;
+  --color-gold-400: #DFC17D;
+  --color-gold-300: #EED49C;
+  --color-gold-200: #F7E7C4;
+  --color-gold-100: #FBF4E4;
+  --color-gold-50: #FDF9F0;
+
+  --color-ivory-50: #FCFAF7;
+  --color-ivory-100: #F7F2EC;
+  --color-ivory-200: #ECE3D8;
+  --color-ivory-300: #DFD2C3;
+  --color-ivory-400: #C7B5A2;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-ivory-50);
+    color: #1a1718;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F2EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #C7B5A2;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #79163E;
+}
